@@ -41,7 +41,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/bipurna/interactive-rating-component.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](http://bipurna.github.com/interactive-rating-component)
 
 ## My process
 
