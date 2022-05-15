@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './Card/Card';
 
 function App() {
+  let cardContent={
+    heading:"How did we do?",
+    text:"Please let us know how we did with your support request.All feedback is appriciated to help us improve our offering!",
+    ratings:[1,2,3,4,5],
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Card {...cardContent}/>
+     <div className="attribution">
+       
+    Challenge by  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://www.tarakumarsunuwar.com.np" target="_blank" rel="noreferrer">Tara Kumar Sunuwar</a>.
+  </div>
     </div>
   );
 }
